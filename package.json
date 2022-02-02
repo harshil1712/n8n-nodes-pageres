@@ -1,9 +1,9 @@
 {
-  "name": "n8n-nodes-starter",
+  "name": "n8n-nodes-pageres",
   "version": "0.1.0",
-  "description": "A starter template for n8n nodes module",
+  "description": "An n8n node that use pageres to take screenshot of websites",
   "main": "index.js",
-  "repository": "https://github.com/harshil1712/n8n-nodes-starter.git",
+  "repository": "https://github.com/harshil1712/n8n-nodes-pageres.git",
   "author": {
     "name": "Harshil Agrawal",
     "email": "connect@harshil.dev"
@@ -22,7 +22,7 @@
   ],
   "n8n": {
     "nodes": [
-      "dist/Starter.node.js"
+      "dist/Pageres.node.js"
     ]
   },
   "devDependencies": {

@@ -6,7 +6,7 @@ Please follow the instructions to contribute a bug fix or a new feature:
 2. Clone the forked repository using the command
 
 ```sh
-git clone https://github.com/<YOUR-USERNAME>/n8n-nodes-starter.git
+git clone https://github.com/<YOUR-USERNAME>/n8n-nodes-pageres.git
 ```
 
 3. Create a new branch.

@@ -1,12 +1,7 @@
-# n8n-nodes-starter
+# n8n-nodes-pageres
 
-A starter template for n8n nodes module.
+An n8n node that use pageres to take screenshot of websites.
 
-Use this template to get started with creating your own n8n-nodes-module.
-
-Learn more about the n8n-nodes-module on the [official documentation](https://docs.n8n.io/nodes/creating-nodes/create-n8n-nodes-module.html).
-
-<!--
 ## Usage
 
 ### Docker
@@ -35,8 +30,8 @@ RUN apk --update add --virtual build-dependencies python build-base ca-certifica
 	apk del build-dependencies \
 	&& rm -rf /root /tmp/* /var/cache/apk/* && mkdir /root;
 
-# Install n8n-nodes-starter
-RUN cd /usr/local/lib/node_modules/n8n && npm install n8n-nodes-starter
+# Install n8n-nodes-pageres
+RUN cd /usr/local/lib/node_modules/n8n && npm install n8n-nodes-pageres
 
 # Install fonts
 RUN apk --no-cache add --virtual fonts msttcorefonts-installer fontconfig && \
@@ -90,13 +85,11 @@ docker build -t n8n-custom .
 docker run -p 5678:5678 n8n-custom
 ```
 
-Navigate to your instance (`localhost:5678` if you're running locally) to access the starter node.
+Navigate to your instance (`localhost:5678` if you're running locally) to access the pageres node.
 
 ### Other
 
-If you’re running either by installing it globally or via PM2, make sure that you install `n8n-nodes-starter` inside n8n. n8n will find the module and load it automatically.
-
--->
+If you’re running either by installing it globally or via PM2, make sure that you install `n8n-nodes-pageres` inside n8n. n8n will find the module and load it automatically.
 
 ## Contributing
 
